@@ -44,7 +44,7 @@ desejos.forEach((desejo) => {
   card.className = "card";
 
   const imagem = document.createElement("img");
-  imagem.src = "/amigo-secreto/" + desejo.foto.replace(/^\/+/, "");
+  imagem.src = new URL(desejo.foto, window.location.href).href;
   imagem.alt = desejo.nome;
   imagem.onerror = () => {
     imagem.style.display = "none";
