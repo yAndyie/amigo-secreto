@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Uma pequena coleção de desejos do Anderson.">
+  <title>Nortes do Anderson✦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="moon">☾</span>
+    <span class="planet">◉</span>
+    <span class="pixel-star s1">✦</span><span class="pixel-star s2">✧</span>
+    <span class="pixel-star s3">✦</span><span class="pixel-star s4">✧</span>
+    <span class="pixel-star s5">✦</span><span class="pixel-star s6">✧</span>
+    <span class="meteor m1"></span><span class="meteor m2"></span>
+    <span class="cloud c1"></span><span class="cloud c2"></span>
+  </div>
+
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">✧ um cantinho menor que o vazio no universo ✧</p>
+      <h1>Os nortes do <span>Anderson</span></h1>
+      <p class="subtitle">Pequenos desejos, grandes alegrias.</p>
+      <div class="divider">✦ ───────── ✦</div>
+      <p class="intro">Isso é apenas uma bússula para você se localizar nas infinitas possibilidades desse universo 💜</p>
+    </header>
+
+    <section class="wishlist" aria-labelledby="wishlist-title">
+      <div class="section-heading">
+        <span>✧</span>
+        <h2 id="wishlist-title">Minha lista de desejos</h2>
+        <span>✧</span>
+      </div>
+      <p class="hint"></p>
+      <div id="wish-list" class="cards"></div>
+    </section>
+
+    <footer>feito com carinho e um pouquinho de magia <span>♡</span></footer>
+  </main>
+  <script src="script.js"></script>
+  <div id="youtube-player"></div>
+
+<div id="youtube-player"></div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+  let player;
+  let musicaAtivada = false;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('youtube-player', {
+      height: '200',
+      width: '200',
+      videoId: 'a34_gIMaS3A',
+      playerVars: {
+        autoplay: 1,
+        controls: 1,
+        loop: 1,
+        playlist: 'a34_gIMaS3A'
+      },
+      events: {
+        onReady: function(event) {
+          event.target.mute();
+          event.target.playVideo();
+        }
+      }
+    });
+  }
+
+  document.addEventListener('click', function() {
+    if (!musicaAtivada && player) {
+      musicaAtivada = true;
+      player.unMute();
+      player.setVolume(40);
+      player.playVideo();
+    }
+  }, { once: true });
+</script>
+</body>
+</html>
