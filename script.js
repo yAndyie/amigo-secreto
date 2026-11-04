@@ -8,7 +8,7 @@ const desejos = [
   {
     nome: "Mouse gamer sem fio",
     descricao: "Na cor branca, ou roxa",
-    foto: "mouse.jpg",
+    foto: "imagens/mouse.jpg",
     link: "https://www.kabum.com.br/produto/611255/mouse-gamer-sem-fio-redragon-invader-pro-rgb-10000-dpi-8-botoes-wireless-branco-m719w-rgb-pro"
   },
   {
