@@ -1,40 +1,38 @@
-// Edite esta lista para adicionar seus desejos.
-// Coloque as fotos dentro da pasta "imagens" e informe o caminho abaixo.
 const desejos = [
   {
     nome: "Moletom Unlimited",
     descricao: "Tamanho M, azul",
-    foto: "imagens/blusao.jpg",
+    foto: "/blusao.jpg",
     link: "https://www.lojasrenner.com.br/p/blusao-masculino-moletom-unlimited-com-capuz-e-half-ziper/-/A-931051068-br.lr?sku=931051076"
   },
   {
     nome: "Mouse gamer sem fio",
     descricao: "Na cor branca, ou roxa",
-    foto: "imagens/mouse.jpg",
+    foto: "/mouse.jpg",
     link: "https://www.kabum.com.br/produto/611255/mouse-gamer-sem-fio-redragon-invader-pro-rgb-10000-dpi-8-botoes-wireless-branco-m719w-rgb-pro"
   },
   {
     nome: "Relógio Anadigi Casio",
     descricao: "Quem me conhece sabe que eu sou péssimo com horas, por isso preciso de um relógio lindo para ficar em meu pulso",
-    foto: "imagens/relogio.jpg",
+    foto: "/relogio.jpg",
     link: "https://www.lojasrenner.com.br/p/relogio-anadigi-casio-aq230a7bmq/-/A-536686688-br.lr?sku=536686696"
   },
   {
     nome: "Pulseira na cor prata ou de preta rsrs",
     descricao: "Não sei link, Deus te ajude a achar",
-    foto: "imagens/pulseira.jpg",
+    foto: "/pulseira.jpg",
     link: ""
   },
   {
     nome: "Camiseta Polo Nanda Tsunami",
     descricao: "Tamanho M",
-    foto: "imagens/nanda.jpg",
+    foto: "/nanda.jpg",
     link: "https://shopee.com.br/product/1459954671/58208321640?gads_t_sig=gqRjZGVrxHCFomtpsTE0MjUxOnRzc19zZGtfa2V5omt20QACpGFsZ2_SAAAAZKNkZWvAomN0xEAAAAAMc1TPTF0zl9lUk9doKYfbtNkYCBZaTm6dQ6q3WJIrnGYlyLtpSCE1-D6jy2YmlKEe_b7zxJZfI6lpwZ6fqmNpcGhlcnRleHTEdAAAAAzzd48Z0iZJNJwTvu0XAir4-KL8sj6sqPA6BGNDqpoqFk0tiFCrZI0bvXuX88VSscsFb89eHO5sIkRax4zZEpg9gIt254VjJo6x6Dm55IfYKXqFw-_sYdPEpLoyBAAbP4F1BuQpq2MasHxi18O8OmV5"
   },
   {
     nome: "Camieta Marina Sena Coisas Naturais",
     descricao: "Tamanho M",
-    foto: "imagens/marina.jpg",
+    foto: "/marina.jpg",
     link: "https://shopee.com.br/-Camiseta-Premium-em-Algod%C3%A3o-Puro-TT-Camiseta-Oversized-Marina-Sena-Coisas-Naturais-Tour-Moda-Tend%C3%AAncia-100-Algod%C3%A3o-i.1615546910.58201855754?extraParams=%7B%22display_model_id%22%3A239433973977%2C%22model_selection_logic%22%3A3%7D&image_ids=sg-11134201-822x3-mi2wk3d2ploh41"
   }
 ];
