@@ -8,7 +8,7 @@ const desejos = [
   {
     nome: "Mouse gamer sem fio",
     descricao: "Na cor branca, ou roxa",
-    foto: "imagens/mouse.jpg",
+    foto: "mouse.jpg",
     link: "https://www.kabum.com.br/produto/611255/mouse-gamer-sem-fio-redragon-invader-pro-rgb-10000-dpi-8-botoes-wireless-branco-m719w-rgb-pro"
   },
   {
@@ -44,7 +44,7 @@ desejos.forEach((desejo) => {
   card.className = "card";
 
   const imagem = document.createElement("img");
-  imagem.src = desejo.foto;
+  imagem.src = "/amigo-secreto/" + desejo.foto.replace(/^\/+/, "");
   imagem.alt = desejo.nome;
   imagem.onerror = () => {
     imagem.style.display = "none";
